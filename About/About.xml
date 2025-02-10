@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Shepherds &amp; Epochs - Pottery Clay Patch</name>
+	<author>8BitBoar</author>
+	<description> A simple mod that uses ReplaceLib to replace MO clay and blocks with EpochsPottery clay and bricks.</description>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>8BitBoar.MOEpochsPottery.ReplaceLibClayPatch</packageId>
+	<url></url>
+	<modVersion IgnoreIfNoMatchingField="True">1.0</modVersion>
+	<modDependencies>
+		<li>
+			<packageId>ferny.replacelib</packageId>
+			<displayName>ReplaceLib</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3417393194</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>det.epochspottery</packageId>
+			<displayName>Epochs - Pottery</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3092351095</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>dankpyon.medieval.overhaul</packageId>
+			<displayName>Medieval Overhaul</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3219596926</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+        <li>Ferny.Replacelib</li>
+		<li>DankPyon.Medieval.Overhaul</li>
+		<li>Det.EpochsPottery</li>
+	</loadAfter>
+</ModMetaData>

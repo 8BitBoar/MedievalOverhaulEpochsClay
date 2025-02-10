@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ReplaceLib.ReplacerDef>
+        <defName>EpochClay_ReplaceMedievalOverhaulClay</defName>
+            <replacers>
+                <li>
+                    <replace>DankPyon_Clay</replace>
+                    <with>DV_Clay</with>
+                </li>
+                <li>
+                    <replace>DankPyon_BlocksClay</replace>
+                    <with>DV_ClayBricks</with>
+                </li>
+            </replacers>
+    </ReplaceLib.ReplacerDef>
+</Defs>
